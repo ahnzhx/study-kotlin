@@ -13,8 +13,8 @@ fun mapTest(){
     }
 
     // 맵에 대해 이터레이션. 맵의 키와 값을 두 변수에 각각 대입
-    for ((letter, binary) in binaryReps){
-        println("$letter = $binary")
+    for ((key, value) in binaryReps){
+        println("$key = $value")
     }
 }
 
