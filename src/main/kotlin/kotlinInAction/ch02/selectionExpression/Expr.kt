@@ -13,8 +13,6 @@ fun main(){
     print(Sum(Sum(Num(1), Num(2)), Num(4)))
 }
 
-// TODO eval 추가하기
-
 //if(e is Num)  -> e Num 으로 바뀌는데 (스마트 캐스팅) 스마트 캐스팅은 값을 만들어내는 건 아니다.
 
 fun test(e: Expr): Int=
