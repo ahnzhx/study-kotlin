@@ -24,7 +24,6 @@ fun saveUser2(user: User){
     validate2(user.address, "Address")
 }
 
-
 fun User.validateBeforeSave(){
     fun validate(value: String, fieldName: String){
         if(value.isEmpty()){

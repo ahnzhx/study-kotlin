@@ -26,9 +26,9 @@ val kotlinLogo = """| //
 val price = """${'$'}99.9"""
 
 fun main(){
-    parsePath("/Users/yole/kotlin-book/chapter.doc")
-    parsePath2("/Users/yole/kotlin-book/chapter.doc")
+//    parsePath("/Users/yole/kotlin-book/chapter.doc")
+//    parsePath2("/Users/yole/kotlin-book/chapter.doc")
     println(kotlinLogo)
-    println("""/Users/yole/kotlin-book/chapter.doc""")
+//    println("""/Users/yole/kotlin-book/chapter.doc""")
     println(price)
 }
