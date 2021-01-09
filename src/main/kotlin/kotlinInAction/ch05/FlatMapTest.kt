@@ -7,6 +7,8 @@ val books = listOf(Book("코틀린", listOf("안소현", "안주현")), Book("�
 val strings = listOf("abc", "def")
 fun main(){
     println(books.flatMap { it.authors }.toSet())
-    println(listOf)
+
     println(strings.flatMap { it.toList() })
+
 }
+
