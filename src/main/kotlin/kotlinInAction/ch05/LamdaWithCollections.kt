@@ -22,6 +22,10 @@ fun main(){
     println(people.filter { it.age > 30 }.map (Person::name))
     printProblemCounts(responses)
     println(people.groupBy{ it.age })
+
+
+    people.map(Person::name).filter { it.startsWith("A") }
+
 }
 
 fun printProblemCounts(responses: Collection<String>){
