@@ -6,9 +6,11 @@ val books = listOf(Book("코틀린", listOf("안소현", "안주현")), Book("�
 
 val strings = listOf("abc", "def")
 fun main(){
-    println(books.flatMap { it.authors }.toSet())
+   // println(books.flatMap { it.authors }.toSet())
 
-    println(strings.flatMap { it.toList() })
+    println(strings.flatMap { it.toList()})  // map -> flatten
+
+    //listOf(listOf(1,2,3), listOf(456)).flatten()
 
 }
 
